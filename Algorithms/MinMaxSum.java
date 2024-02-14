@@ -11,7 +11,7 @@ public class MinMaxSum {
 
     // This method finds the min and max sum of an array by using
     // exactly n - 1 digits
-    private static void find(int[] arr) {
+    private void find(int[] arr) {
 
         // Sort the array
         for(int i = 0; i < arr.length; i++) {
